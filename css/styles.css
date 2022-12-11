@@ -20,7 +20,7 @@ ul, li {
     padding: 0;
 }
 
-.container{
+.container {
     max-width: 1440px;
     margin: auto;
     padding: 0 156px;
@@ -33,9 +33,10 @@ ul, li {
     padding: 24px 0;
     background: #fff;
     top: 0;
+    z-index: 100;
 }
 
-.header-menu__inner{
+.header-menu__inner {
     display: flex;
     justify-content: space-between;
 }
@@ -55,7 +56,7 @@ ul, li {
     color: #2E2F42;
 }
 
-.menu-links{
+.menu-links {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -68,7 +69,7 @@ ul, li {
     justify-content: space-between;
 }
 
-.links{
+.links {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -82,7 +83,7 @@ ul, li {
 }
 
 
-.header{
+.header {
     background: #2E2F42;
     height: 675px;
     margin: auto;
@@ -90,7 +91,7 @@ ul, li {
     padding: 192px 0 0 0;
 }
 
-.header h1{
+.header h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -125,15 +126,16 @@ ul, li {
     margin: 24px 0 0 0;
 }
 
-.skills{
+.skills {
     padding: 0 0 120px 0;
 }
 
-.our-skills{
+.our-skills {
     display: flex;
     justify-content: space-between;
 }
-.box{
+
+.box {
     width: 264px;
 }
 
@@ -147,7 +149,7 @@ ul, li {
     color: #2E2F42;
 }
 
-.descripton{
+.descripton {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -157,7 +159,7 @@ ul, li {
     color: #434455;
 }
 
-h2{
+h2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -170,37 +172,37 @@ h2{
     padding: 0 0 72px 0;
 }
 
-.what-are-we-doing{
+.what-are-we-doing {
     padding: 0 0 120px 0;
 }
 
-.we-doing{
+.we-doing {
     display: flex;
     justify-content: space-between;
 }
 
-.our-team{
+.our-team {
     padding: 120px 0 120px 0;
     background: #F4F4FD;
 }
 
-.teams{
+.teams {
     display: flex;
     justify-content: space-between;
 }
 
-.teams li{
+.teams li {
     background: #FFFFFF;
     box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0 0 4px 4px;
 }
 
-.teams li img{
+.teams li img {
     width: 264px;
     height: 260px;
 }
 
-.teams li h5{
+.teams li h5 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -213,7 +215,7 @@ h2{
 }
 
 
-.teams li p{
+.teams li p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -225,17 +227,17 @@ h2{
     margin: 0 0 32px 0;
 }
 
-footer{
+footer {
     background: #2E2F42;
     height: 310px;
     padding: 100px 0 100px 0;
 }
 
-.footer a span{
+.footer a span {
     color: #F4F4FD;
 }
 
-.footer p{
+.footer p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -244,4 +246,108 @@ footer{
     letter-spacing: 0.02em;
     color: #E7E9FC;
     width: 264px;
+}
+
+/* portfolio*/
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 586px;
+    margin: 168px auto 48px auto;
+}
+
+.buttons button {
+    padding: 8px 16px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #4D5AE5;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 2px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+}
+
+ul.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects li {
+    width: 360px;
+    height: 420px;
+    margin: 24px 0;
+    background: #FFFFFF;
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.projects li img {
+    width: 360px;
+    height: 300px;
+}
+
+.projects li h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin: 0 0 8px 0;
+}
+
+.projects li p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    padding: 0;
+    margin: 0;
+}
+
+.projects div {
+    margin: 32px 0 32px 16px;
+}
+
+.project-content {
+    width: 360px;
+    height: 300px;
+    background: #4D5AE5;
+    position: relative;
+    margin: 0 !important;
+}
+
+.project-content span {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    top: 40px;
+    left: 32px;
+    right: 32px;
 }
